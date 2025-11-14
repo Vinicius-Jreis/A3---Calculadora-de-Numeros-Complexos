@@ -25,7 +25,7 @@ public class NumComplexo {
 		return complexoSoma;
 	}
 
-	public NumComplexo subtração(NumComplexo b) {
+	public NumComplexo subtrair(NumComplexo b) {
 		NumComplexo complexoSubtracao =  new NumComplexo(real - b.real, imaginario - b.imaginario);
 		return complexoSubtracao;
 	}
