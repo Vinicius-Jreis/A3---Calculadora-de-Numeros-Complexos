@@ -39,7 +39,7 @@ public class NumComplexo {
 
 
 	public NumComplexo dividir(NumComplexo b) {
-		double denominador = (Math.pow(b.real, 2)) * (Math.pow(b.imaginario, 2));
+		double denominador = Math.pow(b.real, 2) + Math.pow(b.imaginario, 2);
 		
 		if(denominador == 0) {
 			System.out.println("Error. Divisão por zero!");

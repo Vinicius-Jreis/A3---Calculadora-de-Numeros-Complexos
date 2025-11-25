@@ -1,12 +1,12 @@
 package calculadoranumcomplexos;
 
 public class ArvoreNo {
-	private double numero;
+	private String numero;
 	private String operador;
 	private ArvoreNo left, right;
 
 	
-	ArvoreNo(double numero){
+	ArvoreNo(String numero){
 		this.numero = numero;	
 		this.left = null;
 		this.right = null;
@@ -20,7 +20,7 @@ public class ArvoreNo {
 	}
 
 	
-	public double getNumero() {
+	public String getNumero() {
 		return numero;
 	}
 	
@@ -41,9 +41,11 @@ public class ArvoreNo {
 	
 	
 
-	 @Override
-	    public String toString() {	 
-	        return "(" + operador + " " + left.toString() + " " + right.toString() + ")";
+	 public String toLISP() {
+		 if(left == null && right == null) {
+			 return numero;
+		 }
+	        return "(" + operador + " " + left.toLISP() + " " + right.toLISP() + ")";
 	    }
 
 }
