@@ -1,6 +1,12 @@
-# Calculadora de Números Complexos em Java
+# 📄 PROJETO A3 -- Calculadora de Números Complexos em Java 
 
 Este projeto é uma calculadora de números complexos construída em Java, utilizando análise de expressões, construção de árvore sintática e avaliação recursiva.
+
+
+## 👨‍👩‍👧‍👦 Integrantes do Grupo
+
+- João Paulo Souza Fontes - *RA: 12724113272*
+- Vinicius de Jesus Rocha Reis - *RA: 12724120214*
 
 ## 🔢 Funcionalidades
 
@@ -16,11 +22,13 @@ Este projeto é uma calculadora de números complexos construída em Java, utili
 
 ## 📘 Exemplos de expressões aceitas
 
-- `2+3i + 4-2i`  
-- `conj(2+3i)`  
-- `(2+3i) * (4-2i)`  
-- `a + conj(b)`  
-- `(2+i) ^ 3`
+- "(2+3i) + (3-5i)"
+- "(2+3i) - (3+5i)"
+- "(2+3i) * (3-5i)"
+- "(2+3i) / (3-5i)"
+- "conj(2+3i)"
+- "(2+i)^3"
+- "(a + 2i) * 3"
 
 ## ▶️ Como executar
 
