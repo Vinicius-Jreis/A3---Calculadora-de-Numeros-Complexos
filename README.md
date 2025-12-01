@@ -22,13 +22,13 @@ Este projeto é uma calculadora de números complexos construída em Java, utili
 
 ## 📘 Exemplos de expressões aceitas
 
-- ´(2+3i) + (3-5i)´
-- ´(2+3i) - (3+5i)´
-- ´(2+3i) * (3-5i)´
-- ´(2+3i) / (3-5i)´
-- ´conj(2+3i)´
-- ´(2+i)^3´
-- ´(a + 2i) * 3´
+- `(2+3i) + (3-5i)`
+- `(2+3i) - (3+5i)`
+- `(2+3i) * (3-5i)`
+- `(2+3i) / (3-5i)`
+- `conj(2+3i)`
+- `(2+i)^3`
+- `(a + 2i) * 3`
 
 ## 🛠 Tecnologias Utilizadas
 
