@@ -55,6 +55,24 @@ public class NumComplexo {
 		return new NumComplexo(real, -imaginario);
 	}
 
+	
+	public NumComplexo potencia(int n) {
+        if (n < 0) {
+            throw new RuntimeException("Potência negativa não suportada.");
+        }
+
+        if (n == 0) {
+            return new NumComplexo(1, 0);
+        }
+
+        NumComplexo resultado = new NumComplexo(this.real, this.imaginario);
+
+        for (int i = 1; i < n; i++) {
+            resultado = resultado.multiplicar(this);
+        }
+
+        return resultado;
+    }
 
 @Override
 	public String toString() {
