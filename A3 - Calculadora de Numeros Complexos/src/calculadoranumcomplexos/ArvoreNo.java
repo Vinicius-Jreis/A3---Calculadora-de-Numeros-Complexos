@@ -45,7 +45,12 @@ public class ArvoreNo {
 		 if(left == null && right == null) {
 			 return numero;
 		 }
-	        return "(" + operador + " " + left.toLISP() + " " + right.toLISP() + ")";
-	    }
+		 
+		 if(right == null) {
+			 return "(" + operador + " " + left.toLISP() + ")";
+		 }
+		 
+	     return "(" + operador + " " + left.toLISP() + " " + right.toLISP() + ")";
+	 }
 
 }
