@@ -8,6 +8,11 @@ Este projeto é uma calculadora de números complexos construída em Java, utili
 - João Paulo Souza Fontes - *RA: 12724113272*
 - Vinicius de Jesus Rocha Reis - *RA: 12724120214*
 
+
+## 📄 Documentação Completa
+[Clique aqui]: (./Documentação-A3-Wellington)
+
+
 ## 🔢 Funcionalidades
 
 - Soma, subtração, multiplicação e divisão de números complexos  
