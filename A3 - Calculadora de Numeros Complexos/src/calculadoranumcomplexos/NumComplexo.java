@@ -76,11 +76,17 @@ public class NumComplexo {
 
 @Override
 	public String toString() {
-		if(real == 0) { return String.format("%.2f",imaginario);}
+		if(real == 0) { 
+			return String.format("%.2f",imaginario);
+			}
 		
-		if(imaginario == 0) {return String.format("%2.f" , real);}
+		if(imaginario == 0) {
+			return String.format("%.2f" , real);
+			}
 		
-		if(imaginario < 0) {return String.format("%.2f - %.2fi", real, -imaginario);}
+		if(imaginario < 0) {
+			return String.format("%.2f - %.2fi", real, -imaginario);
+		}
 		
 		return String.format("%.2f + %.2fi" ,real, imaginario);
 	}

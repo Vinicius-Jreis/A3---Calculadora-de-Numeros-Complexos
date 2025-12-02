@@ -81,13 +81,13 @@ public class Calculadora {
                
                 case "2":
                     System.out.println("\n===== EXEMPLOS DE EXPRESSÕES ACEITAS =====");
-                    System.out.println("\n (2+3i) + (3-5i) \n");
-                    System.out.println(" (2+3i) - (3+5i) \n");
-                    System.out.println(" (2+3i) * (3-5i) \n");
-                    System.out.println(" (2+3i) / (3-5i) \n");
-                    System.out.println(" conj(2+3i) \n");
-                    System.out.println(" (2+i)^3 \n");
-                    System.out.println(" (a + 2i) * 3\n\n");
+                    System.out.println("\n ADIÇÃO: (2+3i) + (3-5i) \n");
+                    System.out.println(" SUBTRAÇÃO: (2+3i) - (3+5i) \n");
+                    System.out.println(" MULTIPLICAÇÃO: (2+3i) * (3-5i) \n");
+                    System.out.println(" DIVISÃO: (2+3i) / (3-5i) \n");
+                    System.out.println(" CONJUNÇÃO: conj(2+3i) \n");
+                    System.out.println(" POTENCIAÇÃO: (2+i)^3 \n");
+                    System.out.println(" USO DE VARIÁVEIS: (a + 2i) * 3\n\n");
                     break;
 
                 case "3":
