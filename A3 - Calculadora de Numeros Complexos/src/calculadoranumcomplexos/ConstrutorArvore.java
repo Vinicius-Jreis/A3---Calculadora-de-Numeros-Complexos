@@ -57,6 +57,8 @@ public class ConstrutorArvore {
 	                valores.push(new ArvoreNo(numero));
 	                numero = "";
 	            }
+	           
+	           
 
 	            
 	            if (c == ')') {
@@ -72,7 +74,7 @@ public class ConstrutorArvore {
 	                
 	                
 	                if(operacoes.isEmpty()) {
-	                	throw new RuntimeException("Parêntese ')' sem '(' correspondente");
+	                	throw new RuntimeException("Parênteses não balanceados.");
 	                }
 	                
 	                
