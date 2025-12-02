@@ -10,7 +10,7 @@ Este projeto é uma calculadora de números complexos construída em Java, utili
 
 
 ## 📄 Documentação Completa
-[Clique aqui]: (./Documentação-A3-Wellington)
+[Clique aqui](./Documentação-A3-Wellington)
 
 
 ## 🔢 Funcionalidades
